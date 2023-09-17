@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notification</title>
+    <!-- Css Links -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/framework.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- GOOGLE FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar p-20 relative">
+        <h3 class="relative txt-c mt-0">Hassan</h3>
+        <ul>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="index.html"
+            >
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="settings.html"
+            >
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="profile.html"
+            >
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="friends.html"
+            >
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="files.html"
+            >
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-center fs-14 c-black rad-6 p-10"
+              href="plans.html"
+            >
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full over-hidden">
+        <!-- Start Head -->
+        <div class="header">
+          <div class="nav p-15 between-flex">
+            <div class="search relative">
+              <input
+                class="p-10 b-1-solid rad-10"
+                type="search"
+                placeholder="Search"
+              />
+            </div>
+            <div class="icons d-flex align-center">
+              <div class="notification relative mr-15">
+                <div
+                  class="base-notification p-absolute bg-white p-10 rad-6 d-non"
+                >
+                  <div class="top between-flex mb-25">
+                    <div class="fw-bold c-black">Notification</div>
+                    <div class="fs-14 c-grey">
+                      <a href="settings.html"> Settings </a>
+                    </div>
+                  </div>
+                  <div class="info d-flex align-center">
+                    <div><img src="imgs/friend-01.jpg" alt="" /></div>
+                    <div class="text">
+                      <div class="main-text c-black">
+                        Belal Gamal send you a message: please ca.....
+                      </div>
+                      <div class="date mt-5 c-grey fs-14">2 days ago</div>
+                    </div>
+                  </div>
+                  <div class="bottom between-flex relative">
+                    <a class="fw-bold c-grey" href="#">Make all as read</a>
+                    <button class="bg-blue c-white">See all</button>
+                  </div>
+                </div>
+                <i class="bell fa-regular fa-bell fa-lg"></i>
+              </div>
+              <img
+                class="btn--show-modal cursor mr-15"
+                src="imgs/avatar.png"
+                alt=""
+              />
+              <img class="dark-icon cursor mr-10" src="imgs/moon.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- End Head -->
+        <h1 class="relative">Notification</h1>
+        <div class="notification-page mr-20 ml-20">
+          <div class="noti bg-white p-20 rad-6 mb-25 relative between-flex widget">
+            <div class="d-flex align-center">
+              <img src="imgs/friend-01.jpg" alt="" />
+              <div class="text">
+                <div class="main-text">
+                  <p>Belal Gamal send you a message: please call me, I want to buy php course, html course, css course and larvel course.</p>
+                </div>
+                <div class="date c-grey">2 days ago</div>
+              </div>
+            </div>
+            <div class="delete">
+              <i class="fa-solid fa-trash fa-lg mr-20 c-red cursor delete-icon"></i>
+            </div>
+          </div>
+          <div class="noti bg-white p-20 rad-6 mb-25 relative between-flex widget">
+            <div class="d-flex align-center">
+              <img src="imgs/friend-02.jpg" alt="" />
+              <div class="text">
+                <div class="main-text">
+                  <p>Youssef Mohammedl send you a message: please call me, I want to buy php course, html course, css course and larvel course.</p>
+                </div>
+                <div class="date c-grey">2 days ago</div>
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-trash fa-lg mr-20 c-red cursor delete"></i>
+            </div>
+          </div>
+          <div class="noti bg-white p-20 rad-6 mb-25 relative between-flex widget">
+            <div class="d-flex align-center">
+              <img src="imgs/friend-03.jpg" alt="" />
+              <div class="text">
+                <div class="main-text">
+                  <p>Abdo Ashraf send you a message: please call me, I want to buy php course, html course, css course and larvel course.</p>
+                </div>
+                <div class="date c-grey">2 days ago</div>
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-trash fa-lg mr-20 c-red cursor delete"></i>
+            </div>
+          </div>
+          <div class="noti bg-white p-20 rad-6 mb-25 relative between-flex widget">
+            <div class="d-flex align-center">
+              <img src="imgs/friend-04.jpg" alt="" />
+              <div class="text">
+                <div class="main-text">
+                  <p>Shady Nabil send you a message: please call me, I want to buy php course, html course, css course and larvel course.</p>
+                </div>
+                <div class="date c-grey">2 days ago</div>
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-trash fa-lg mr-20 c-red cursor delete"></i>
+            </div>
+          </div>
+          <div class="noti bg-white p-20 rad-6 mb-25 relative between-flex widget">
+            <div class="d-flex align-center">
+              <img src="imgs/friend-05.jpg" alt="" />
+              <div class="text">
+                <div class="main-text">
+                  <p>Mohamed Ibrahim send you a message: please call me, I want to buy php course, html course, css course and larvel course.</p>
+                </div>
+                <div class="date c-grey">2 days ago</div>
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-trash fa-lg mr-20 c-red cursor delete"></i>
+            </div>
+          </div>
+          <div class="noti bg-white p-20 rad-6 mb-25 relative between-flex widget">
+            <div class="d-flex align-center">
+              <img src="imgs/friend-04.jpg" alt="" />
+              <div class="text">
+                <div class="main-text">
+                  <p>Amr Hendawy send you a message: please call me, I want to buy php course, html course, css course and larvel course.</p>
+                </div>
+                <div class="date c-grey">2 days ago</div>
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-trash fa-lg mr-20 c-red cursor delete"></i>
+            </div>
+          </div>
+          <div class="noti bg-white p-20 rad-6 mb-25 relative between-flex widget">
+            <div class="d-flex align-center">
+              <img src="imgs/friend-03.jpg" alt="" />
+              <div class="text">
+                <div class="main-text">
+                  <p>Mahmoud Adel send you a message: please call me, I want to buy php course, html course, css course and larvel course.</p>
+                </div>
+                <div class="date c-grey">2 days ago</div>
+              </div>
+            </div>
+            <div>
+              <i class="fa-solid fa-trash fa-lg mr-20 c-red cursor delete"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Profile Modal -->
+    <div class="modal hidden bg-white">
+      <button class="btn--close-modal">&times;</button>
+      <div class="avatar-box txt-c p-20">
+        <img class="mb-10 rad-half" src="imgs/avatar.png" alt="" />
+        <h3 class="m-0 c-black">Hassan Abdelhamed</h3>
+        <p class="c-grey mt-5">Frontend Developer</p>
+        <p class="c-grey mt-5">Level 22</p>
+        <div class="level rad-6 bg-eee relative">
+          <span style="width: 80%"></span>
+        </div>
+        <div class="rating mt-10 mb-10">
+          <i class="fa-solid fa-star c-orange fs-13"></i>
+          <i class="fa-solid fa-star c-orange fs-13"></i>
+          <i class="fa-solid fa-star c-orange fs-13"></i>
+          <i class="fa-solid fa-star c-orange fs-13"></i>
+          <i class="fa-solid fa-star c-orange fs-13"></i>
+        </div>
+        <p class="c-grey m-0 fs-13">300 Rating</p>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <!-- End Profile Model -->
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

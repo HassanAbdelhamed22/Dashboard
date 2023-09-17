@@ -1,0 +1,298 @@
+:root {
+  --page-color: #f1f5f9;
+  --white-color: white;
+  --black-color: black;
+  --box-shadow-color: #ddd;
+  --sidebar-hover-color: #f6f6f6;
+  --box-background: #eee;
+  --boxes-background: white;
+  --sticky-color: rgba(255, 255, 255, 0.95);
+  --eee-color: #eee;
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --grey-color: #888;
+}
+.dark-mode {
+  --page-color: #1c1c1c;
+  --white-color: #1c1c1c;
+  --black-color: #fff;
+  --box-shadow-color: #222;
+  --sidebar-hover-color: #222;
+  --box-background: #333;
+  --boxes-background: #191919;
+  --sticky-color: rgba(179, 179, 179, 0.95);
+  --eee-color: #303030;
+  --blue-color: #0059b3;
+  --blue-alt-color: #0d4d99;
+  --orange-color: #e68a00;
+  --green-color: #1faa3d;
+  --red-color: #cc3329;
+  --grey-color: #999;
+}
+/* Start box */
+.d-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.f-wrap {
+  flex-wrap: wrap;
+}
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+.d-block {
+  display: block;
+}
+.d-none{
+  display: none;
+}
+@media (max-width: 767px) {
+  .block-mobile {
+    display: block;
+  }
+  .hidden-in-mobile {
+    display: none;
+  }
+}
+/* End box */
+/* Start padding, margin */
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-10{
+  padding-top: 10px;
+}
+.pt-15 {
+  padding-top: 15px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pl-15 {
+  padding-left: 15px;
+}
+.m-0 {
+  margin: 0;
+}
+.m-15 {
+  margin: 15px;
+}
+.m-20 {
+  margin: 20px;
+}
+.mt-0 {
+  margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-15 {
+  margin-top: 15px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-25 {
+  margin-top: 25px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.mr-15 {
+  margin-right: 15px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
+.mb-25 {
+  margin-bottom: 25px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+
+/* End padding, margin, gap */
+/* Start position */
+.relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+/* End position */
+/* Start font */
+.txt-c {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .txt-c-mobile {
+    text-align: center;
+  }
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+/* End font */
+/* Start border */
+.rad-6 {
+  border-radius: 6px;
+}
+.rad-10 {
+  border-radius: 10px;
+}
+.rad-half {
+  border-radius: 50%;
+}
+.b-1-solid {
+  border: 1px solid #ccc;
+}
+.border-eee {
+  border: 1px solid var(--eee-color);
+}
+/* End border */
+/* Start width */
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.h-100 {
+  height: 100px;
+}
+.w-100 {
+  width: 100px;
+}
+.w-fit {
+  width: fit-content;
+}
+.b-none {
+  border: none;
+}
+/* End width */
+/* Start Components */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+/* End Components */
+/* Start Overflow */
+.over-hidden {
+  overflow: hidden;
+}
+/* End Overflow */
+/* Start cursor */
+.cursor:hover {
+  cursor: pointer;
+}
+/* End cursor */
+/* Start Colors */
+.c-white {
+  color: white;
+}
+.c-black {
+  color: var(--black-color);
+}
+.c-grey {
+  color: var(--grey-color);
+}
+.c-orange {
+  color: var(--orange-color);
+}
+.c-blue {
+  color: var(--blue-color);
+}
+.c-red {
+  color: var(--red-color);
+}
+.c-green {
+  color: var(--green-color);
+}
+.bg-white {
+  background-color: var(--boxes-background);
+}
+.bg-orange {
+  background-color: var(--orange-color);
+}
+.bg-red {
+  background-color: var(--red-color);
+}
+.bg-green {
+  background-color: var(--green-color);
+}
+.bg-blue {
+  background-color: var(--blue-color);
+}
+.bg-grey {
+  background-color: var(--grey-color);
+}
+.bg-eee {
+  background-color: var(--eee-color);
+}
+/* End Colors */
